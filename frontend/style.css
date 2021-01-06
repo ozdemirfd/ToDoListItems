@@ -1,0 +1,28 @@
+.todo-item,
+.edit-item,
+.remove-item,
+.update-item,
+.cancel-item {
+  cursor: pointer;
+}
+
+.edit-item {
+  color: blue;
+}
+
+.update-item {
+  color: green;
+}
+
+.remove-item,
+.cancel-item {
+  color: red;
+}
+
+input.todo-item {
+  border: none;
+}
+
+input.todo-item:focus {
+  outline: none;
+}
